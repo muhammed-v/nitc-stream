@@ -4,7 +4,7 @@
 import axios from "axios";
 
 export const axiosInstance =axios.create({
-    baseURL:"http://localhost:5001/api",
+    baseURL:"https://nitc-stream-backend.onrender.com/api",
     withCredentials: true // for sending the cookies in every single request
 });
 
