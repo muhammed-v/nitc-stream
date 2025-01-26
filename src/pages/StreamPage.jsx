@@ -10,7 +10,7 @@ const HomePage = () => {
     const videoRef = useRef(null)
 
     useEffect(() => {
-        const websocket = new WebSocket(`ws://127.0.0.1:${import.meta.env.VITE_WEBSOCKET_PORT}`);
+        const websocket = new WebSocket(`ws://20.235.215.20:${import.meta.env.VITE_WEBSOCKET_PORT}`);
 
 
         websocket.onopen = () => {
